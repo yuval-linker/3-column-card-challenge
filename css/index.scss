@@ -35,7 +35,8 @@ body {
 }
 
 .column {
-  padding: 5%;
+
+  padding: 2.2rem;
 
   &-l {
     border-top-left-radius: 10px;
@@ -65,23 +66,26 @@ body {
 .heading {
   font-family: $shoulder-display;
   color: $light-gray;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .paragraph {
   font-family: $lexend-deca;
   color: $transp-white;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .learn-more {
-  margin-top: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 10px;
 }
 
 .info-pill {
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border: 2px solid $light-gray;
   background-color: $light-gray;
 }
@@ -102,6 +106,10 @@ body {
   }
 
   &-dark-cyan {
-    color: &$very-dark-cyan;
+    color: $very-dark-cyan;
   }
+}
+
+.icon {
+  margin-top: 5px;
 }
